@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/* Nav Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* body */
+body {
+  font-family: "Raleway", "sans-serif";
+  margin: auto;
+  padding-left: 30px;
+  /* max-width: 1500px; */
+
+  text-align: center;
+  line-height: 2.3em;
+  font-weight: 900;
+
+  background: url("../images/green_mountain.jpg");
+}
+
+body p h1 {
+  color: black;
+}
+
+body h2,
+label  {
+  color: white;
+}
+
+.navbar {
+  padding-top: 0;
+}
+
+.active {
+  background-color: darkgreen;
+}
+
+.main_content {
+  padding-top: 20px;
+}
+
+/* Email Address Button */
+button {
+  background-color: white;
+  font-size: 20px;
+}

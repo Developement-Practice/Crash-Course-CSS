@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body {
+  font-family: "Raleway", "sans-serif";
+  background-image: url("https://wallpapercave.com/wp/wp2740665.png");
+  max-width: 2000px;
+  /* margin: auto; */
+  /* align-items: center; */
+}
+
+h1 {
+  color: black;
+}
+
+h1 a {
+  color: maroon;
+}
+
+h2 a:hover {
+  color: orange;
+}
+
+.chessboard {
+  border-radius: 100px;
+}
+
+.chessboard:hover {
+  -webkit-box-shadow: 105px 70px 32px 11px rgba(242, 22, 22, 1);
+  -moz-box-shadow: 105px 70px 32px 11px rgba(242, 22, 22, 1);
+  box-shadow: 105px 70px 32px 11px rgba(242, 22, 22, 1);
+}
+
+.mate-in-one {
+  box-shadow: 5px 10px red;
+}
+
+.mate-in-two {
+  box-shadow: 5px 10px blue;
+}
+
+ul li a {
+  color: red;
+}
+
+ul li a:visited {
+  color: blue;
+}
+
+ul li a:hover {
+  color: purple;
+}
+
+/* Remove the stubborn underline */
+ul li a:hover,
+ul li a:visited,
+ul li a:link,
+ul li a:active {
+  text-decoration: none;
+  /* font-family: 'Raleway','sans-serif' */
+}
